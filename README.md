@@ -1,1 +1,1 @@
-# sensitive_words_blocking
+# 基于DFA算法实现的敏感词屏蔽
