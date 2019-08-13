@@ -130,7 +130,7 @@ class DFA:
                 pos_list.append(i)
         return ss
 
-
+# 
 dfa = DFA()
 # 中文:'\u4e00'-'\u9fa5','\u3400'-'u4db5'
 # 数字:'\u30'-'\u39'
