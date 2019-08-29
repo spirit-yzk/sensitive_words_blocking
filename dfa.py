@@ -129,14 +129,3 @@ class DFA:
                 ss += _str[i]
                 pos_list.append(i)
         return ss
-
-# 
-dfa = DFA()
-# 中文:'\u4e00'-'\u9fa5','\u3400'-'u4db5'
-# 数字:'\u30'-'\u39'
-# 英文:小写'\u61'-'\u7a' 大写'\u41'-'\u5a'
-s1 = '日、你￥，妈,1,2#@3,ffsf妈 *卖 *批,'
-# print(dfa.draw_words(s1))
-s2 = dfa.filter_all(s1)
-print(s1)
-print(s2)
